@@ -14,3 +14,11 @@ for height in student_height:
     sum = sum + height
 
 print(sum/len(student_height))
+
+scores = [90, 34, 61, 61, 92, 61, 71]
+highscore = scores[0]
+for score in scores:
+    if(score > highscore):
+        highscore = score
+
+print(highscore)
