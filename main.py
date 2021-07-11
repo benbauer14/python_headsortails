@@ -22,3 +22,10 @@ for score in scores:
         highscore = score
 
 print(highscore)
+
+# add even numbers from 1 to 100
+evens = 0
+for number in range(2,101, 2):
+    evens += number
+
+print(evens)
